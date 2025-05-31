@@ -1,29 +1,35 @@
-# README #
+# 📝 GNM Online Exam Portal
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a web-based **General Nursing and Midwifery (GNM) Online Exam** application built using **HTML**, **Bootstrap 5**, **JavaScript**, and **jQuery**. It allows nursing students to take practice exams, receive scores, and optionally get results via email.
 
-### What is this repository for? ###
+---
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## 🚀 Features
 
-### How do I get set up? ###
+- Responsive and clean UI using **Bootstrap 5**
+- Multiple question sets categorized by topics
+- Timed exam functionality
+- Scoring system:
+  - ✅ +0.75 for correct answers
+  - ❌ -0.25 for incorrect answers
+- Score is displayed after submission
+- Optionally send results to user email using **EmailJS**
+- Re-attempt functionality with "Re-Exam"
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+---
 
-### Contribution guidelines ###
+## 📁 Project Structure
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```bash
+GNM-Online-Exam/
+│
+├── index.html                # Main Exam Page
+├── controlExamHeart.js       # Logic for timer, scoring, evaluation, etc.
+├── questionSet/
+│   ├── musculoskeletal-system.js
+│   ├── endocrine-system.js
+│   ├── ...
+│
+├── assets/                   # Optional: For images, CSS, etc.
+│
+└── README.md                 # This file
